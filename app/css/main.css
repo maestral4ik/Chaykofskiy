@@ -1,0 +1,54 @@
+html{
+height: 100%;;
+}
+body{
+  height: 100%;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.list-menu-items-li a:hover{
+  color: #fb5f24;
+}
+header{
+  background: url(../img/GLAVNYJ_EKRAN.png);
+  background-position: top center;
+  background-repeat: repeat-x;
+  min-height: 982px;
+  position: relative;
+}
+.header-content{
+  min-height: 120px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.35);
+}
+.menu-icon{
+  margin-top: 50px;
+  margin-left:457px;
+  height: 25px;
+  width: 20px;
+  float: left;
+  background: url(../img/menu-icon.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.list-menu-items{
+  margin-top: 46px;
+  padding: 4px;
+}
+.list-menu-items li{
+    font-size: 16px;
+    margin-left: 72px;
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+    color: white;
+}
+
+h1{
+  font-size: 10px;
+}
